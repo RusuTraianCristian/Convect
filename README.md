@@ -11,7 +11,7 @@ npm i convect
 ```
 ## Usage
 
-```
+```javascript
 import useConvect from './Convect';
 
 const options = {
