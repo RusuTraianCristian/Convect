@@ -22,6 +22,7 @@ const options = {
 }
 
 const [data, status] = useConvect(options);
+
 // typeof data "object" (data fetched)
 // typeof status "number" (request status)
 ```
