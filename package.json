@@ -1,0 +1,26 @@
+{
+  "name": "convect",
+  "version": "0.0.2",
+  "description": "Custom React Hook to send and retrieve data from APIs.",
+  "main": "Convect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RusuTraianCristian/Convect.git"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "functional",
+    "fetch",
+    "api"
+  ],
+  "author": "Rusu Traian Cristian",
+  "license": "ISC"
+}
