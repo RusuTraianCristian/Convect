@@ -12,7 +12,7 @@ npm i convect
 ## Usage
 
 ```javascript
-import useConvect from './Convect';
+import useConvect from 'convect';
 
 const options = {
     // url
