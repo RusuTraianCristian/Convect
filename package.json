@@ -1,6 +1,10 @@
 {
   "name": "convect",
+<<<<<<< HEAD
   "version": "0.0.5",
+=======
+  "version": "0.0.6",
+>>>>>>> e76b54bf3a4e6f753fa83329e31058900abc549f
   "description": "Custom React Hook to send and retrieve data from APIs.",
   "main": "Convect.js",
   "scripts": {
