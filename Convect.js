@@ -8,12 +8,12 @@ const useConvect = options => {
             try {
                 const response = await fetch(options.url, options);
                 const data = await response.json();
-                const status = await response.status;
+                const status = response.status;
                 setData(data);
                 setStatus(status);
-              } catch (e) {
+            } catch (e) {
                 console.error(e);
-              }
+            }
         }
         Convect(options);
     }, []);
