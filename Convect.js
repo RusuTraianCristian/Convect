@@ -16,8 +16,11 @@ const useConvect = options => {
               }
         }
         Convect(options);
-    }, [options]);
-    return [data, status];
+    }, []);
+    return {
+        data,
+        status
+    }
 }
 
 export default useConvect;
