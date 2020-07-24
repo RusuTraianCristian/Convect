@@ -22,5 +22,5 @@ const useConvect = options => {
         status
     }
 }
-// to be edited soon..
+
 export default useConvect;
