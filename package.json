@@ -1,10 +1,6 @@
 {
   "name": "convect",
-<<<<<<< HEAD
-  "version": "0.0.6",
-=======
   "version": "0.0.7",
->>>>>>> 6024296050cb00cdf00b2acdb550c9d69b741a90
   "description": "Custom React Hooks to enhance rapid prototyping.",
   "main": "Convect.js",
   "scripts": {
