@@ -1,7 +1,15 @@
 {
   "name": "convect",
+<<<<<<< HEAD
+  "version": "0.0.5",
+=======
   "version": "0.0.6",
+<<<<<<< HEAD
   "description": "Custom React Hooks to enhance rapid prototyping.",
+=======
+>>>>>>> e76b54bf3a4e6f753fa83329e31058900abc549f
+  "description": "Custom React Hook to send and retrieve data from APIs.",
+>>>>>>> refs/remotes/origin/master
   "main": "Convect.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
