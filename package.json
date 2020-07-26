@@ -1,7 +1,7 @@
 {
   "name": "convect",
   "version": "0.0.6",
-  "description": "Custom React Hook to send and retrieve data from APIs.",
+  "description": "Custom React Hooks to enhance rapid prototyping.",
   "main": "Convect.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

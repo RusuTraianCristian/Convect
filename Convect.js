@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const useConvect = options => {
+const useFetch = options => {
     const [data, setData] = useState({});
     const [status, setStatus] = useState(null);
     useEffect(() => {
@@ -17,10 +17,26 @@ const useConvect = options => {
         }
         Convect(options);
     }, []);
-    return {
-        data,
-        status
-    }
+    return [data, status];
 }
 
-export default useConvect;
+const useStorage = (storage, method, key = '', value = '') => {
+    const [store, setStore] = useState(undefined);
+    switch (method) {
+        case 'set':
+            storage.setItem(key, value);
+            setStore(value);
+            break;
+        case 'get':
+            setStore(storage.getItem(key));
+            break;
+        default:
+            break;
+    }
+    return store;
+}
+
+export { 
+    useFetch, 
+    useStorage 
+};
