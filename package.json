@@ -5,11 +5,19 @@
 =======
   "version": "0.0.6",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "description": "Custom React Hooks to enhance rapid prototyping.",
 =======
 >>>>>>> e76b54bf3a4e6f753fa83329e31058900abc549f
   "description": "Custom React Hook to send and retrieve data from APIs.",
 >>>>>>> refs/remotes/origin/master
+=======
+>>>>>>> e76b54bf3a4e6f753fa83329e31058900abc549f
+  "description": "Custom React Hook to send and retrieve data from APIs.",
+=======
+  "description": "Custom React Hooks to enhance rapid prototyping.",
+>>>>>>> 13c7f0ac6f241d7c07110fc9e8a8e5abe9ddaa5f
+>>>>>>> 7b836c03329fc0fc702e87deb210e1ef375fedb9
   "main": "Convect.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
