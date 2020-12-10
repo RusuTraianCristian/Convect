@@ -1,10 +1,13 @@
-import { useEffect, useState } from 'react';
+import { 
+    useEffect, 
+    useState 
+} from 'react';
 
 const useFetch = options => {
     const [data, setData] = useState({});
     const [status, setStatus] = useState(null);
     useEffect(() => {
-        const Convect = async (options) => {
+        const Convect = async options => {
             try {
                 const response = await fetch(options.url, options);
                 const data = await response.json();
@@ -21,7 +24,7 @@ const useFetch = options => {
 }
 
 const useStorage = (storage, method, key = '', value = '') => {
-    const [store, setStore] = useState(undefined);
+    const [store, setStore] = useState(null);
     switch (method) {
         case 'set':
             storage.setItem(key, value);
